@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Saira', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header > div#tithead{
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.329);
+    font-size: 2em;
+}
+
+header > div#tithead span{
+    color: #00AD6F;
+}
+
+header > menu > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #00AD6F;
+    padding: 10px;
+}
+
+header > menu > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main > section#tela0{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 10px;
+    text-align: center;  
+}
+
+main > section#tela0 > p#p1{
+    font-size: 10vw; /**/
+    font-weight: bold;   
+}
+
+main > section#tela0 > p#p2{
+    font-size: 7vw; /**/
+    color: #00AD6F;
+    
+}
+
+main > section#tela0 > div{
+    padding: 10px;
+    letter-spacing: 30px;
+}
+
+main > section#tela0 > div > img#ic{
+    border: 1px solid white;
+}
+
+main > section > article#txtt1{
+    text-indent: 20px;
+}
+
+main > section > article#txtt1 > h1{
+    padding: 20px;
+    font-size: 1.5em;
+    color: black;
+    background-image: linear-gradient(to bottom, black, #00AD6F, black);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main > section > article#txtt1 > div#paragrafos{
+    padding: 15px;
+    text-align: center;
+}
+
+/*main > section > article#txtt1 > div#links{
+    display: flex;
+    justify-content: space-around;
+    
+}
+main > section#tela1  a{
+    display: inline-block;
+    background-color: #00AD6F;
+    margin-top: 40px;
+    border: 2px solid #00AD6F;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    padding-left: 0px;
+}*/
+
+
+main > section > div#imgt1{
+    display: none;
+}
+
+main > h1#proj{
+    background-image: linear-gradient(to bottom, black, #00AD6F);
+    color: white;
+    font-style: normal;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.9em;
+    padding: 40px;
+    
+}
+
+main > section#tela2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00AD6F;
+    padding-bottom: 80px;
+}
+
+.p1, .p2, .p3{
+    width: 50%;
+    padding: 15px;
+    text-align: left;
+}
+
+
+
+main > section#tela2 a{
+    text-decoration: none;
+    color: #003B25;
+}
+
+main > section#tela2 a:after{
+    content: '\00A0\1f517';
+}
+
+main > section#tela3{
+    margin-bottom: 130px;
+}
+
+main > section#tela3 > h1{
+    background-image: linear-gradient(to bottom, #00AD6F, rgba(19, 17, 17, 0.39),black);
+    color: white;
+    font-size: 1.7em;
+    padding: 10px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+main > section#tela3 > table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 90vw;
+    max-width: 700px;
+    
+    
+}
+
+main > section#tela3 > table td, th{
+    border: 2px solid #00AD6F;
+    padding: 5px;
+}
+
+main > section#tela4{
+    background-color: #00AD6F;
+    padding-bottom: 50px;
+}
+
+main > section#tela4 > h1{
+    background-image: linear-gradient(to bottom, black, #00AD6F);
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 40px;
+}
+
+main > section#tela4 > p{
+    padding: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main > section#tela4 > div#imghab{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section#tela4 > div#imghab > div.skill{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+main > section#tela4 > div#imghab > div.skill > img{
+    border-radius: 20px;
+}
+
+footer{
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, #00AD6F, black, black, black);
+    display: flex;
+}
+
+footer > div#txtf{
+    width: 75%;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+footer > div#imgf{
+    padding: 5px;
+    width: 25%;
+}
+
+footer img{
+    padding: 3px;
+}
+
+
+
