@@ -49,12 +49,6 @@ main > section#tela0{
     text-align: center;  
 }
 
-main > section#tela0 > div#pimg{
-    color: #00AD6F;
-    letter-spacing: 25px;
-    font-size: 35vw;
-    font-weight: bold;
-}
 
 main > section#tela0 > p#p1{
     font-size: 10vw; /**/
