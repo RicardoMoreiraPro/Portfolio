@@ -28,8 +28,25 @@ header > div#tithead span{
     color: #00AD6F;
 }
 
+header > span#burguer{
+    display: block;
+    background-color: #00AD6F;
+    color: black;
+    padding: 10px;
+    text-align: right;
+}
+
+header > span#burguer:hover{
+    background-color: #018554;
+    color: #00e08e;
+}
+
+header > menu{
+    display: none;
+}
+
 header > menu > ul{
-    display: flex;
+    
     justify-content: space-around;
     list-style-type: none;
     background-color: #00AD6F;
