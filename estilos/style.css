@@ -212,6 +212,11 @@ main > section#tela2{
     
 }
 
+main > section#tela2 > picture source, img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 main > section#tela2 a{
     color: black;
     text-decoration: none;
