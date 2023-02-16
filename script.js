@@ -37,7 +37,7 @@ function saiucss(){
 
 function escrevejs(){
     var d = document.getElementById('skilljs')
-    a.innerHTML = ' É uma linguagem de programação de alto nível, com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.'
+    a.innerHTML = 'É uma linguagem de programação de alto nível, com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.'
 }
 
 function saiujs(){

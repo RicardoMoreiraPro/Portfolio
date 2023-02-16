@@ -14,9 +14,6 @@ html, body{
     color: white;
 }
 
-header{
-    height: 20vh;
-}
 
 header > div#tithead{
     background-color: black;
