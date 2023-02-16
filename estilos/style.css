@@ -91,7 +91,7 @@ main > section#tela0 > div#imgtela0{
 main > section#tela0 > p{
     display: inline-block;
     margin: auto;
-    max-width: 430px;
+    
 }
 
 main > section#tela0 > p > span#p1{
@@ -135,6 +135,13 @@ main > section#tela0 > p.cursoranimation > span#p2{
 main > section#tela0 > div#logolg{
     padding: 10px;
     letter-spacing: 30px;
+}
+
+main > section#tela0 > div#logolg > a > img:hover{
+    border: 1px solid #00AD6F;
+    transform: translate(-3px, -3px);
+    transition: transform 0.4s, border 0.3s;
+    
 }
 
 main > section#tela0 > div img#ic{
@@ -205,10 +212,13 @@ main > section#tela2{
     
 }
 
-
-
 main > section#tela2 a{
+    color: black;
     text-decoration: none;
+}
+
+main > section#tela2 a:hover{
+    text-decoration: underline;
     color: #003B25;
 }
 
@@ -303,5 +313,10 @@ footer img{
     border: 1px solid white;
 }
 
+footer img:hover{
+    border: 1px solid #00AD6F;
+    transform: translateY(-3px);
+    transition: transform 0.4s, border 0.3s;
+}
 
 
