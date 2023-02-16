@@ -14,3 +14,78 @@ function clickMenu(){
     }
 
 }
+
+var a = document.getElementById('texthab')
+
+function escrevehtml(){
+    var b = document.getElementById('skillhtml')
+    a.innerHTML = 'É uma linguagem de marcação utilizada na construção de páginas na Web.'
+}
+
+function saiuhtml(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevecss(){
+    var c = document.getElementById('skillcss')
+    a.innerHTML = 'É uma linguagem de estilo, usada para personalização visual de um site.'
+}
+
+function saiucss(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevejs(){
+    var d = document.getElementById('skilljs')
+    a.innerHTML = ' É uma linguagem de programação de alto nível, com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.'
+}
+
+function saiujs(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevephp(){
+    var e = document.getElementById('skillphp')
+    a.innerHTML = 'É uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor.'
+}
+
+function saiuphp(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevesql(){
+    var f = document.getElementById('skillsql')
+    a.innerHTML = 'SQL é uma linguagem padrão para trabalhar com bancos de dados relacionais.'
+}
+
+function saiusql(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escreveshopify(){
+    var g = document.getElementById('skillshopify')
+    a.innerHTML = 'É uma plataforma onde se pode configurar uma loja virtual e vender seus produtos físicos ou digitais.'
+}
+
+function saiushopify(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevegit(){
+    var h = document.getElementById('skillgit')
+    a.innerHTML = 'É usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software.'
+}
+
+function saiugit(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+
+function escrevegithub(){
+    var i = document.getElementById('skillgithub')
+    a.innerHTML = 'É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.'
+}
+
+function saiugithub(){
+    a.innerHTML = '/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */'
+}
+

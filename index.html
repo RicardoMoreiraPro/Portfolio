@@ -138,32 +138,32 @@
         
         <section class="secmain" id="tela4">
             <h1><a name="habilidades">Habilidades</a></h1>
-            <p id="texthab">/* Passe o mouse por cima de alguma habilidade para ler a descrição */</p>
+            <p id="texthab">/* Passe o mouse por cima ou clique em alguma habilidade para ler a descrição */</p>
 
-            <div id="imghab">
-                <div class="skill" id="skillhtml">
-                    <img src="imagens/htmlpeq.png" alt="HTML">
+            <div id="imghab" onmousedown="saiu()">
+                <div class="skill" id="skillhtml" onmouseleave="saiuhtml()">
+                    <img src="imagens/htmlpeq.png" alt="HTML" onmouseenter="escrevehtml()">
                 </div>
-                <div class="skill" id="skillcss">
-                    <img src="imagens/csspeq.png" alt="CSS">
+                <div class="skill" id="skillcss" onmouseleave="saiucss()">
+                    <img src="imagens/csspeq.png" alt="CSS" onmouseenter="escrevecss()">
                 </div>
-                <div class="skill" id="skilljs">
-                    <img src="imagens/jspeq.png" alt="JavaScript">
+                <div class="skill" id="skilljs" onmouseleave="saiujs()">
+                    <img src="imagens/jspeq.png" alt="JavaScript" onmouseenter="escrevejs()">
                 </div>
-                <div class="skill" id="skillphp">
-                    <img src="imagens/phppeq.png" alt="PHP">
+                <div class="skill" id="skillphp" onmouseleave="saiuphp()">
+                    <img src="imagens/phppeq.png" alt="PHP" onmouseenter="escrevephp()">
                 </div>
-                <div class="skill" id="skillsql">
-                    <img src="imagens/sqlpeq.png" alt="SQL">
+                <div class="skill" id="skillsql" onmouseleave="saiusql()">
+                    <img src="imagens/sqlpeq.png" alt="SQL" onmouseenter="escrevesql()">
                 </div>
-                <div class="skill" id="skillshopfy">
-                    <img src="imagens/shopify.png" alt="Shopify">
+                <div class="skill" id="skillshopify" onmouseleave="saiushopify()">
+                    <img src="imagens/shopify.png" alt="Shopify" onmouseenter="escreveshopify()">
                 </div>
-                <div class="skill" id="skillgit">
-                    <img src="imagens/git.png" alt="Git">
+                <div class="skill" id="skillgit"  onmouseleave="saiugit()">
+                    <img src="imagens/git.png" alt="Git" onmouseenter="escrevegit()">
                 </div>
-                <div class="skill" id="skillgithub">
-                    <img src="imagens/githubpeq.png" alt="GitHub">
+                <div class="skill" id="skillgithub" onmouseleave="saiugithub()">
+                    <img src="imagens/githubpeq.png" alt="GitHub" onmouseenter="escrevegithub()">
                 </div>
             </div>
         </section>
