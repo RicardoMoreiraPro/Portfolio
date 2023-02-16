@@ -70,17 +70,21 @@ main > section#tela0{
 }
 @keyframes animacao{
     0%{ 
+        transform: translateY(0px);
+    }
+    25%{
         transform: translateY(-25px);
     }
-    50%{
+    75%{
         transform: translateY(25px);
     }
     100%{
-        transform: translateY(-25px);
+        transform: translateY(0px);
     }
 }
 main > section#tela0 > div#imgtela0{
     animation: animacao 5s linear infinite;
+    animation-delay: 1s;
 }
 
 main > section#tela0 > p#p1{
@@ -91,7 +95,21 @@ main > section#tela0 > p#p1{
 main > section#tela0 > p#p2{
     font-size: 7vw; /**/
     color: #00AD6F;
+    border-right: 2px solid #00AD6F;
     
+}
+
+.cursoranimation{
+    animation: blinkcursor 500ms infinite normal;
+}
+
+@keyframes blinkcursor {
+    from{
+        border-right-color: #00AD6F;
+    }
+    to{
+        border-right-color: transparent;
+    }
 }
 
 main > section#tela0 > div#logolg{
