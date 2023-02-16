@@ -65,6 +65,7 @@ main > section#tela0{
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px;
+    padding-right: 20px;
     text-align: center;  
     height: 80vh;
 }
@@ -87,23 +88,23 @@ main > section#tela0 > div#imgtela0{
     animation-delay: 1s;
 }
 
-main > section#tela0 > p#p1{
+main > section#tela0 > p > span#p1{
     font-size: 10vw; /**/
     font-weight: bold;   
 }
 
-main > section#tela0 > p#p2{
+main > section#tela0 > p > span#p2{
     font-size: 7vw; /**/
     color: #00AD6F;
     border-right: 2px solid #00AD6F;
     
 }
 
-.cursoranimation{
-    animation: blinkcursor 500ms infinite normal;
+main > section#tela0 > p.cursoranimation > span#p2{
+    animation: pisca 500ms infinite normal;
 }
 
-@keyframes blinkcursor {
+@keyframes pisca {
     from{
         border-right-color: #00AD6F;
     }
