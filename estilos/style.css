@@ -14,6 +14,10 @@ html, body{
     color: white;
 }
 
+header{
+    height: 20vh;
+}
+
 header > div#tithead{
     background-color: black;
     color: white;
@@ -46,8 +50,6 @@ header > menu{
 }
 
 header > menu > ul{
-    
-    justify-content: space-around;
     list-style-type: none;
     background-color: #00AD6F;
     padding: 10px;
@@ -64,6 +66,7 @@ main > section#tela0{
     margin-bottom: 60px;
     padding: 10px;
     text-align: center;  
+    height: 80vh;
 }
 
 main > section#tela0 > p#p1{
