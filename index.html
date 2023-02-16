@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricardo Moreira</title>
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body onresize="mudouTamanho()">
@@ -42,7 +43,7 @@
                 <h1><a name="sobre-mim">Sobre Mim</a></h1>
                 <div id="paragrafos">
                     <p>Olá, sou estudante de Análise e desenvolvimento de sistemas, apaixonado por tecnologia, e decidido a trilhar o caminho da programação.</p> <br>
-                    <p>Sou uma pessoa proativa, resiliente e movido por desafios. Já entre minhas Hard Skills, destaco HTML, CSS, JavaScript, PHP e SQL, Git e GitHub</p> <br>
+                    <p>Sou uma pessoa proativa, resiliente e movido por desafios. Já entre minhas Hard Skills, destaco HTML, CSS, JavaScript, PHP, SQL, Git e GitHub</p> <br>
                     <p>Já atuei como gestor de tráfego nas plataformas do Facebook ads e Google ads, como copywriter, e criador de sites na plataforma Shopify, sendo essa ultima experiência, a que me proporcionou conhecer o mundo da programação, onde me apaixonei pelos códigos.</p>
                 </div>
                 <!--<div id="links">
@@ -57,41 +58,41 @@
         </section>
         <h1 id="proj"><a name="meus-projetos">Meus Projetos</a></h1>
         <section class="secmain" id="tela2">
-            <div class="p1">
-                <picture>
-                    <source media="(max-width: 700px )" srcset="imagens/login-peq.png" type="image/png">
-                    <source media="(max-width: 1000px)" srcset="imagens/login.png" type="image/png">
-                    <img src="imagens/login-grande.png" alt="login">
-                </picture>
+            <div id="wt2">
+                <div class="p1">
+                    <picture>
+                        <source media="(max-width: 700px )" srcset="imagens/login-peq.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imagens/login.png" type="image/png">
+                        <img src="imagens/login-grande.png" alt="login">
+                    </picture>
+                </div>
+                <article class="p1">
+                    <h3><a href="https://ricardomoreirapro.github.io/Projeto-Login/" target="_blank" class="linp">Projeto Login</a></h3>
+                    <p>Projeto do Site com uma tela de login totalmente responsivo para todas as telas, com o uso de Media Query.</p>
+                </article>
+                <div class="p2">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="imagens/android-peq.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imagens/android.png" type="image/png">
+                        <img src="imagens/android-grande.png" alt="android">
+                    </picture>
+                </div>
+                <article class="p2">
+                    <h3><a href="https://ricardomoreirapro.github.io/Projeto-Android/" target="_blank" class="linp">Projeto Android</a></h3>
+                    <p>Projeto do site com a história do mascote do android, para testes de responsividade de imagens e aplicar meus primeiros conhecimentos de HTML.</p>
+                </article>
+                <div class="p3">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="imagens/social-peq.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imagens/social.png" type="image/png">
+                        <img src="imagens/social-grande.png" alt="social">
+                    </picture>
+                </div>
+                <article class="p3">
+                    <h3><a href="https://ricardomoreirapro.github.io/Projeto-Social/" target="_blank" class="linp">Projeto Social</a></h3>
+                    <p>Projeto do site com as redes sociais, com o intuito de testar o background image, fazendo todas as redes aparecerem na tela do celular, sendo desenvolvido no Curso em Vídeo.</p>
+                </article>
             </div>
-            <article class="p1">
-                <h3><a href="https://ricardomoreirapro.github.io/Projeto-Login/" target="_blank" class="linp">Projeto Login</a></h3>
-                <p>Projeto do Site com uma tela de login totalmente responsivo para todas as telas, com o uso de Media Query.</p>
-            </article>
-
-            <div class="p2">
-                <picture>
-                    <source media="(max-width: 700px)" srcset="imagens/android-peq.png" type="image/png">
-                    <source media="(max-width: 1000px)" srcset="imagens/android.png" type="image/png">
-                    <img src="imagens/android-grande.png" alt="android">
-                </picture>
-            </div>
-            <article class="p2">
-                <h3><a href="https://ricardomoreirapro.github.io/Projeto-Android/" target="_blank" class="linp">Projeto Android</a></h3>
-                <p>Projeto do site com a historia do mascote do android, para testes de responsividade de imagens e aplicar meus primeiros conhecimentos de HTML.</p>
-            </article>
-
-            <div class="p3">
-                <picture>
-                    <source media="(max-width: 700px)" srcset="imagens/social-peq.png" type="image/png">
-                    <source media="(max-width: 1000px)" srcset="imagens/social.png" type="image/png">
-                    <img src="imagens/social-grande.png" alt="social">
-                </picture>
-            </div>
-            <article class="p3">
-                <h3><a href="https://ricardomoreirapro.github.io/Projeto-Social/" target="_blank" class="linp">Projeto Social</a></h3>
-                <p>Projeto do site com as redes sociais, com o intuito de testar o background image, fazendo todas as redes aparecerem na tela do celular. Desenvolvido no Curso em Vídeo.</p>
-            </article>
         </section>
 
         <section class="secmain" id="tela3">
