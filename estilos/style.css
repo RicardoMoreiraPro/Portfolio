@@ -85,7 +85,7 @@ main > section#tela0{
 }
 main > section#tela0 > div#imgtela0{
     animation: animacao 5s linear infinite;
-    animation-delay: 1s;
+    animation-delay: 5.3s;
 }
 
 main > section#tela0 > p{
