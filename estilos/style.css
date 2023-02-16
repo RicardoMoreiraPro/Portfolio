@@ -239,12 +239,13 @@ footer > div#txtf{
 }
 
 footer > div#imgf{
-    padding: 5px;
+    margin: auto;
     width: 25%;
 }
 
 footer img{
     padding: 3px;
+    border: 1px solid white;
 }
 
 
