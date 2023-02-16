@@ -37,7 +37,7 @@ function saiucss(){
 
 function escrevejs(){
     var d = document.getElementById('skilljs')
-    a.innerHTML = 'É uma linguagem de programação de alto nível, com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.'
+    a.innerHTML = 'É uma linguagem de programação de alto nível, com tipagem dinâmica fraca e multiparadigma.'
 }
 
 function saiujs(){
@@ -46,7 +46,7 @@ function saiujs(){
 
 function escrevephp(){
     var e = document.getElementById('skillphp')
-    a.innerHTML = 'É uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor.'
+    a.innerHTML = 'É uma linguagem de script do tipo server-side com diversos propósitos.'
 }
 
 function saiuphp(){
@@ -64,7 +64,7 @@ function saiusql(){
 
 function escreveshopify(){
     var g = document.getElementById('skillshopify')
-    a.innerHTML = 'É uma plataforma onde se pode configurar uma loja virtual e vender seus produtos físicos ou digitais.'
+    a.innerHTML = 'É uma plataforma onde se pode configurar uma loja virtual.'
 }
 
 function saiushopify(){
@@ -73,7 +73,7 @@ function saiushopify(){
 
 function escrevegit(){
     var h = document.getElementById('skillgit')
-    a.innerHTML = 'É usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software.'
+    a.innerHTML = 'Controla o histórico de alterações de arquivos e projetos de desenvolvimento de software.'
 }
 
 function saiugit(){
@@ -82,7 +82,7 @@ function saiugit(){
 
 function escrevegithub(){
     var i = document.getElementById('skillgithub')
-    a.innerHTML = 'É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.'
+    a.innerHTML = 'É uma plataforma de hospedagem de código-fonte e arquivos.'
 }
 
 function saiugithub(){
