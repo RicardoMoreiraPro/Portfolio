@@ -60,6 +60,21 @@ header > menu > ul > li > a{
     text-decoration: none;
     color: #00AD6F;
     font-weight: bold;
+    position: relative;
+}
+
+header > menu > ul > li > a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #00ad6d38;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+header > menu > ul > li > a:hover::after{
+    width: 100%;
 }
 
 main > section#tela0{
@@ -229,16 +244,24 @@ main > section#tela2 > picture > source, img{
 main > section#tela2 a{
     color: black;
     text-decoration: none;
+    position: relative;
 }
 
-main > section#tela2 a:hover{
-    text-decoration: underline;
-    color: #003B25;
+main > section#tela2 a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
 }
 
-main > section#tela2 a:after{
-    content: '\00A0\1f517';
+main > section#tela2 a:hover::after{
+    width: 100%;
 }
+
 main > section#tela2 p{
     max-width: 250px;
 }
