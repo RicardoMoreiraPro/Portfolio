@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
     font-family: 'Saira', sans-serif;
     background-color: black;
@@ -48,13 +52,13 @@ header > menu{
 
 header > menu > ul{
     list-style-type: none;
-    background-color: #00AD6F;
+    background-color: #00ad6d38;
     padding: 10px;
 }
 
 header > menu > ul > li > a{
     text-decoration: none;
-    color: black;
+    color: #00AD6F;
     font-weight: bold;
 }
 
