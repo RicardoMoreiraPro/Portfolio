@@ -192,22 +192,6 @@ main > section > article#txtt1 > div#paragrafos{
     margin-top: 50px;
 }
 
-/*main > section > article#txtt1 > div#links{
-    display: flex;
-    justify-content: space-around;
-    
-}
-main > section#tela1  a{
-    display: inline-block;
-    background-color: #00AD6F;
-    margin-top: 40px;
-    border: 2px solid #00AD6F;
-    padding: 10px;
-    border-radius: 10px;
-    border-style: outset;
-    padding-left: 0px;
-}*/
-
 main > h1#proj{
     background-image: linear-gradient(to bottom, black, #00AD6F);
     color: white;
