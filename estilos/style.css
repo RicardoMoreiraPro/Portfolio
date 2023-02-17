@@ -52,8 +52,10 @@ header > menu{
 
 header > menu > ul{
     list-style-type: none;
-    background-color: #00ad6d38;
+    background-color: black;
     padding: 10px;
+    border: 2px solid #00AD6F;
+    border-top: none;
 }
 
 header > menu > ul > li > a{

@@ -37,6 +37,12 @@
     main > section#tela1{
         height: 80vh;
     }
+    main > h1#proj{
+        padding-bottom: 50px;
+    }
+    main > section#tela3 > h1{
+        margin-bottom: 60px;
+    }
     main > section#tela4 > div#imghab{
         justify-content: space-around;
         max-width: 600px;
@@ -85,8 +91,15 @@
     main > section#tela1{
         height: 80vh;
     }
+    main > h1#proj{
+        padding-bottom: 60px;
+    }
     main > section#tela2 p{
         max-width: 300px;
+    }
+
+    main > section#tela3 > h1{
+        margin-bottom: 70px;
     }
     main > section#tela4 > div#imghab{
         justify-content: space-around;
