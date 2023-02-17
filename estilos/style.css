@@ -187,11 +187,6 @@ main > section#tela1  a{
     padding-left: 0px;
 }*/
 
-
-main > section > div#imgt1{
-    display: none;
-}
-
 main > h1#proj{
     background-image: linear-gradient(to bottom, black, #00AD6F);
     color: white;
