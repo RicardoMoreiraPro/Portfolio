@@ -46,7 +46,7 @@ function saiujs(){
 
 function escrevephp(){
     var e = document.getElementById('skillphp')
-    a.innerHTML = 'É uma linguagem de script do tipo server-side com diversos propósitos.'
+    a.innerHTML = 'C# é uma linguagem multiparadigma, de tipagem forte, desenvolvida pela Microsoft.'
 }
 
 function saiuphp(){
